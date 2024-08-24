@@ -1,0 +1,309 @@
+@media all and (min-width:1180px) and (max-width:1399px){
+    .form-row>label {
+        font-size: 12px;
+    }
+
+    .span-values>span{
+        font-size: 9px;
+        min-width: 10px;
+    }
+
+    .form_button_results{
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:1225px) {
+   .desc-items{
+        flex-direction: column;
+        gap: 0;
+        max-height: none;
+        height: 100%;
+        overflow: auto;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:1179px) and (min-width:992px){
+    .form-row>label {
+        font-size: 11px;
+    }
+
+    .span-values>span{
+        font-size: 8px;
+        min-width: 9px;
+    }
+
+    .form_button_results{
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width:992px) and (min-width:768px){
+    .inputs-blocks{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .content-blocks{
+        flex-direction: column;
+    }
+
+    .header_forms>form>.inputs-blocks>div{
+        border-radius:10px;
+    }
+
+    .header_forms>form>.inputs-blocks>div:nth-child(3),
+    .header_forms>form>.inputs-blocks>div:nth-child(1){
+        border-radius: 10px;
+    }
+
+    .main_content-box{
+        width:calc(100% / 4);
+    }
+
+    .footer_content_block>a {
+        font-size: 14px;
+    }
+
+    .box-absolute-title>span {
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width:768px){
+    .box-absolute-desc-mobile,
+    .mobile_title,
+    .footer_mobile{
+        display: none !important;
+    }
+}
+
+@media all and (max-width:767px) and (min-width:311px){
+   .main_title{
+    display: none;
+  }
+
+
+
+  .inputs-blocks{
+    flex-direction: column;
+    gap:0;
+  }
+
+  .content-blocks{
+    flex-direction: column;
+  }
+
+  .header_forms>form>.inputs-blocks>div:nth-child(2){
+    border-radius:0;
+  }
+
+   .header_forms>form>.inputs-blocks>div:nth-child(3){
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px; 
+    border-top: solid 2px #DBE0E7;
+   }
+
+   .header_login>a {
+       border: none !important;
+   } 
+
+   .header_login>a>span{
+    display: none;
+   }
+
+   .header_forms>form>.inputs-blocks>div:nth-child(1){
+     border-bottom-left-radius:0px;
+     border-bottom-right-radius:0px;
+     border-top-left-radius:10px;
+     border-top-right-radius:10px;
+     border-bottom: solid 2px #DBE0E7;
+   }
+
+   .main_content-box:nth-child(1),
+   .main_content-box:nth-child(3),
+   .main_content-box:nth-child(9),
+   .main_content-box:nth-child(10){
+        display: flex;
+   }
+
+   .main_content-box{
+       display: none;
+   }
+
+   .box-absolute-desc{
+    display: none !important;
+   }
+
+   .main_content-box {
+       width:100%;
+       max-height: none;
+   }
+
+   .box-absolute-desc-mobile{
+    display: flex;
+    width: 100%;
+   }
+
+   .mobile_desc_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   }
+
+   .item-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+   }
+
+   .item-mobile>span:first-child{
+    font-family: "SF Pro Display";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14.32px;
+    text-align: left;
+    color: white;
+   }
+
+   .item-mobile>span:last-child{
+    font-family: "SF Pro Display";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13.13px;
+    text-align: left;
+    color: #FFFFFF;
+    opacity: 0.5;
+   }
+
+   .content_boxes-box-absolute{
+    gap: 20px !important;
+   }
+
+   .box_logo {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+   }
+
+   .footer_content{
+    display: none !important;
+   }
+
+   .footer_mobile_block:first-child>span{
+    font-family:"times new roman";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: center;
+    color: #FFFFFF;
+   }
+
+   .footer_mobile_block:nth-child(2)>a{
+    text-decoration: none;
+    font-family:"times new roman";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: center;
+    color: #FFFFFF;
+   }
+
+   
+   .footer_mobile_block:nth-child(3)>a{
+     width:195px;
+     height: 46px;
+     background-color: #65CF72;
+     border-radius: 20px;
+     padding: 12px 32px;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+   }
+
+   .footer_mobile_block:nth-child(3)>a>span{
+     font-family:"times new roman";
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 20.7px;
+     text-align: center;
+     color: #FFFFFF;
+   }
+
+   .footer_mobile_block:last-child>span{
+    font-family:"times new roman";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: center;
+    color: #FFFFFF;
+   }
+
+}
+
+@media all and (min-width:450px) and (max-width:767px){
+    .box-absolute-title>span{
+        font-size: 22px;
+    }
+
+    .mobile_title{
+        font-family: 'Sharp-Grotesk';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 45.9px;
+        text-align: center;
+        color: white;
+      }
+}
+
+@media all and (max-width:450px) and (min-width:311px){
+    .item-mobile>span:first-child{
+        font-family: "SF Pro Display";
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.32px;
+        text-align: left;
+        color: white;
+       }
+    
+       .item-mobile>span:last-child{
+        font-family: "SF Pro Display";
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13.13px;
+        text-align: left;
+        color: #FFFFFF;
+        opacity: 0.5;
+       }
+
+       .span-values>span{
+        min-width: auto;
+       }
+
+        h2.mobile_title{
+        font-size: 26px;
+        font-family: 'Sharp-Grotesk';
+        font-weight: 500;
+        line-height: 28px;
+        text-align: center;
+        color: white;
+       }
+}
+
+@media all and (max-width:401px){
+    .form_button_results {
+        font-family: 'SF Pro Display';
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 15.51px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #0b68e5;
+        padding: 1em 0 !important;
+    }
+}

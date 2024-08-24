@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/css/style.css" type="text/css">
+    <link rel="stylesheet" href="libs/css/media.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Anyships</title>
+</head>
+<body>
+     <div class="container-fluid">
+         <div class="row">
+             <header class="header col-12 d-flex align-items-center flex-column p-4 gap-5">
+                 <div class="header_top col-12 d-flex align-items-center justify-content-between">
+                      <div class="header_logo d-flex align-items-center justify-content-end col-md-7 col-sm-8 col-9">
+                         <img src="libs/img/logo.png" alt="">
+                      </div>
+
+                      <div class="header_login d-flex align-items-center justify-content-end col-1 col-md-5">
+                         <a href="" class="border border-1 rounded-4 d-flex align-items-center gap-1 justify-content-center">
+                             <span>Войти</span>
+                             <img src="libs/img/Icon.png" alt="">
+                         </a>
+                      </div>
+                 </div>
+
+                 <div class="header_bottom col-lg-6 col-12 d-flex align-items-center justify-content-center d-flex flex-column">
+                       <div class="header_bottom_heading col-12">
+                          <h2 class="main_title text-white col-12">
+                             Сервис бронирования яхт
+                          </h2>
+
+                          <h2 class="mobile_title col-12">
+                             Бронирование яхт в Дубае
+                          </h2>
+                       </div>
+
+                       <div class="header_forms col-12 d-flex flex-column">
+                           <form class="d-flex align-items-center justify-content-between flex-column gap-3">
+                                  <div class="inputs-blocks d-flex align-items-center justify-content-beetwen col-12">
+                                      <div class="m-0 col-12 col-lg-4 form-row d-flex align-items-center bg-white justify-content-beetwen">
+                                        <label>Количество персон</label>
+                                        <input type="number" class="form-control" id="formGroupExampleInput">
+                                      </div>
+                                      <div class="m-0 col-12 col-lg-4 form-row d-flex align-items-center bg-white justify-content-beetwen">
+                                        <label>Количество часов</label>
+                                        <input type="number" class="form-control" id="formGroupExampleInput2">
+                                      </div>    
+                                      <div class="m-0 col-12 col-lg-4 form-row d-flex align-items-center bg-white justify-content-beetwen">
+                                        <label>Дата</label>
+                                        <input type="date" class="form-control" id="formGroupExampleInput2">
+                                      </div>  
+                                  </div>              
+                                  
+                                   <div class="content-blocks d-flex col-12 align-items-center justify-content-between gap-1">
+                                      <div class="form-block col-lg-6 col-12 d-flex bg-white flex-column gap-2 p-3 rounded-3 time-block">
+                                          <div class="label_values col-12 d-flex align-items-center justify-content-beetwen">
+                                             <label class="col-10">Время начала</label>
+                                             <input type="number" value="15" class="col-2 rounded-2 d-flex justify-content-center align-items-center border border-1">
+                                          </div>
+
+                                          <div class="range_block col-12">
+                                            <input type="range" class="form-range" id="customRange1">
+                                          </div>
+
+                                          <div class="span-values col-12 d-flex align-items-center justify-content-between">
+                                             <span>1</span>
+                                             <span>2</span>
+                                             <span>3</span>
+                                             <span>4</span>
+                                             <span>5</span>
+                                             <span>6</span>
+                                             <span>7</span>
+                                             <span>8</span>
+                                             <span>9</span>
+                                             <span>10</span>
+                                             <span>11</span>
+                                             <span>12</span>
+                                             <span>13</span>
+                                             <span>14</span>
+                                             <span>15</span>
+                                             <span>16</span>
+                                             <span>17</span>
+                                             <span>18</span>
+                                             <span>19</span>
+                                             <span>20</span>
+                                             <span>21</span>
+                                             <span>22</span>
+                                             <span>23</span>
+                                             <span>24</span>
+                                          </div>
+
+
+                                      </div>
+                                       
+                                      <div class="form-block col-lg-6 col-12 d-flex bg-white flex-column gap-2 p-3 rounded-3">
+                                           <div class="label_values col-12 d-flex align-items-center justify-content-beetwen ps-2 pe-2">
+                                             <label class="col-7">
+                                                Цена / час
+                                             </label>
+                                             <div class="input_values d-flex col-5 align-items-center justify-content-end">
+                                                <input type="number" value="15" class=" rounded-2 d-flex justify-content-center align-items-center border border-1">
+                                                <span>-</span>
+                                                <input type="number" value="15" class="rounded-2 d-flex justify-content-center align-items-center border border-1">
+                                             </div>
+                                           </div>
+
+                                           <div class="range_block col-12">
+                                            <input type="range" class="form-range" id="customRange1">
+                                          </div>
+                                           <div class="span-values col-12 d-flex align-items-center justify-content-between">
+                                               <span>От 5 000 руб</span>
+
+                                               <span>До 130 000 руб</span>
+                                           </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="content_form_button col-12 d-flex flex-column bg-primary align-items-center rounded-3 p-3 gap-1">
+                                       <div class="form_button_title col-12">
+                                           <h2 class="m-0 d-flex align-items-center justify-content-center">Найти яхту по фильтру</h2>
+                                       </div>
+
+                                       <div class="form_button_results col-md-8 col-sm-10 col-12 col-lg-7 d-flex align-items-center justify-content-center p-2 rounded-4">
+                                          <span class="persons">Для 8 человек</span> <span class="hours">на 16 часов</span> - <span class="date">25 февраля 2024</span>  <span class="start_date"> с  15:00</span>
+                                       </div>
+                                  </div>
+                           </form>
+                       </div>
+                 </div>
+             </header>
+
+             <main class="main col-12 d-flex align-items-center flex-column p-3 gap-5">
+                 <div class="main_blocks col-12 d-flex align-items-center flex-column gap-3">
+                         <div class="main_blocks_content col-12 flex-wrap d-flex justify-content-between">
+                              <div class="main_content-box p-1">
+                                  <div class="content_boxes-box-img col-12">
+                                       <img src="libs/img/img1.png" alt="" class="col-12 rounded-4">
+                                  </div>
+
+                                  <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                       <div class="box-absolute-title">
+                                         <span>Яхта Azimut 68 Princess</span>
+                                       </div>
+
+                                       <div class="box-absolute-desc d-flex flex-column gap-1">
+                                             <div class="desc-items d-flex  gap-1">
+                                                 <div class="item">
+                                                     <span>1500 РУБ</span>
+                                                 </div>
+                                                 <div class="item">
+                                                      <span>Рекомендованная цена</span>
+                                                 </div>
+                                             </div> 
+
+                                               <div class="desc-items d-flex  gap-1">
+                                                <div class="item">
+                                                    <span>1500 РУБ</span>
+                                                </div>
+                                                <div class="item">
+                                                     <span>Рекомендованная цена</span>
+    
+                                                </div>
+                                               </div> 
+    
+                                               <div class="desc-items d-flex  gap-1">
+                                                <div class="item">
+                                                    <span>1500 РУБ</span>
+                                                </div>
+                                                <div class="item">
+                                                     <span>Рекомендованная цена</span>
+    
+                                                </div>
+                                               </div> 
+                                       </div>
+
+                                       <div class="box-absolute-desc-mobile">
+                                            <div class="mobile_desc_items">
+                                                <div class="item-mobile">
+                                                    <span>1 500 РУБ</span>
+                                                    <span>Рек. цена</span>
+                                                </div>
+                                                <div class="item-mobile">
+                                                    <span>3 000 РУБ</span>
+                                                    <span>Текущая цена</span>
+                                                </div>
+                                                <div class="item-mobile">
+                                                     <span>
+                                                       40 м
+                                                     </span>
+                                                     <span>
+                                                        Длина яхты
+                                                     </span>
+                                                </div>
+                                                <div class="item-mobile">
+                                                     <span>8 чел.</span>
+                                                     <span>Вместимость</span>
+                                                </div>
+                                            </div>
+                                       </div>
+                                  </div>
+
+                                  <div class="box_logo">
+                                      <img src="libs/img/box_logo.png" alt="">
+                                  </div>
+                              </div>
+
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img2.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                     </div>
+                                </div>
+                                 
+
+
+                              </div>
+
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img3.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items  d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items  d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items  d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+
+                                     <div class="box-absolute-desc-mobile">
+                                        <div class="mobile_desc_items">
+                                            <div class="item-mobile">
+                                                <span>1 500 РУБ</span>
+                                                <span>Рек. цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                <span>3 000 РУБ</span>
+                                                <span>Текущая цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>
+                                                   40 м
+                                                 </span>
+                                                 <span>
+                                                    Длина яхты
+                                                 </span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>8 чел.</span>
+                                                 <span>Вместимость</span>
+                                            </div>
+                                        </div>
+                                   </div>
+                                </div>
+
+                                <div class="box_logo">
+                                   <img src="libs/img/box_logo.png" alt="">
+                               </div>
+                                 
+
+
+                              </div>
+
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img4.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc  d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+
+
+                              </div>
+ 
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img busy col-12">
+                                     <img src="libs/img/img5.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute purchased d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items  d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+
+                                <div class="box-absolute-info">
+                                     <span>Временно недоступно</span>
+                                </div>
+                              </div>
+
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img6.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                              </div>
+
+                              <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img busy col-12">
+                                     <img src="libs/img/img7.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute purchased d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+
+                                <div class="box-absolute-info">
+                                     <span>Временно недоступно</span>
+                                </div>
+                              </div>
+
+                              <div class="main_content-box  p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img8.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                              </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img9.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+ 
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                     </div>
+
+                                     <div class="box-absolute-desc-mobile">
+                                        <div class="mobile_desc_items">
+                                            <div class="item-mobile">
+                                                <span>1 500 РУБ</span>
+                                                <span>Рек. цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                <span>3 000 РУБ</span>
+                                                <span>Текущая цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>
+                                                   40 м
+                                                 </span>
+                                                 <span>
+                                                    Длина яхты
+                                                 </span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>8 чел.</span>
+                                                 <span>Вместимость</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box_logo">
+                                   <img src="libs/img/box_logo.png" alt="">
+                               </div>
+
+
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img10.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+
+                                     <div class="box-absolute-desc-mobile">
+                                        <div class="mobile_desc_items">
+                                            <div class="item-mobile">
+                                                <span>1 500 РУБ</span>
+                                                <span>Рек. цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                <span>3 000 РУБ</span>
+                                                <span>Текущая цена</span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>
+                                                   40 м
+                                                 </span>
+                                                 <span>
+                                                    Длина яхты
+                                                 </span>
+                                            </div>
+                                            <div class="item-mobile">
+                                                 <span>8 чел.</span>
+                                                 <span>Вместимость</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="box_logo">
+                                   <img src="libs/img/box_logo.png" alt="">
+                               </div>
+
+
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img busy col-12">
+                                     <img src="libs/img/img11.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute purchased d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                                  
+                                <div class="box-absolute-info">
+                                    <span>Временно недоступно</span>
+                                </div>
+                                
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img12.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items  d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img13.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img14.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img15.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img16.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img busy col-12">
+                                     <img src="libs/img/img17.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute purchased d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+
+                                <div class="box-absolute-info">
+                                    <span>Временно недоступно</span>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img18.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img19.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="main_content-box p-1">
+                                <div class="content_boxes-box-img col-12">
+                                     <img src="libs/img/img20.png" alt="" class="col-12 rounded-4">
+                                </div>
+
+                                <div class="content_boxes-box-absolute d-flex flex-column gap-1">
+                                     <div class="box-absolute-title">
+                                       <span>Яхта Azimut 68 Princess</span>
+                                     </div>
+
+                                     <div class="box-absolute-desc d-flex gap-1 flex-column">
+                                           <div class="desc-items d-flex gap-1">
+                                               <div class="item">
+                                                   <span>1500 РУБ</span>
+                                               </div>
+                                               <div class="item">
+                                                    <span>Рекомендованная цена</span>
+
+                                               </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+
+                                           <div class="desc-items d-flex gap-1">
+                                            <div class="item">
+                                                <span>1500 РУБ</span>
+                                            </div>
+                                            <div class="item">
+                                                 <span>Рекомендованная цена</span>
+
+                                            </div>
+                                           </div> 
+                                     </div>
+                                </div>
+                            </div>
+                         </div>
+
+                         <div class="main_blocks_btn col-12 d-flex align-items-center justify-content-center p-5">
+                              <a href="" class="more-btn col-12 d-flex align-items-center justify-content-center gap-3">
+                                <img src="libs/img/plus-btn.png" alt="">
+                                <span>Показать больше яхт</span>
+                              </a>
+                         </div>
+
+                 </div>
+             </main>
+
+             <footer class="footer col-12 p-4">
+                    <div class="footer_content col-12 d-flex align-items-center justify-content-between">
+                           <div class="footer_content_block col-4 d-flex align-items-center justify-content-start">
+                               <a href="tel:+971585174744" class="d-flex col-12 align-items-center justify-content-start">По всем вопросам +971 58 517 4744</a>
+                           </div>
+
+                           <div class="footer_content_block col-3 d-flex align-items-center justify-content-center">
+                             <ul class="navbar-nav flex-row align-items-center justify-content-beetwen col-12">
+                                 <li class="nav-item col-4 d-flex align-items-center justify-content-end">
+                                   <a class="nav-link active" aria-current="page"href="https://whatsapp.com" target="_blank"> 
+                                    <img src="libs/img/whatsapp.png" alt="">
+                                   </a>
+                                 </li>
+                                 <li class="nav-item col-4 d-flex align-items-center justify-content-center ">
+                                   <a class="nav-link" href="https://facebook.com" target="_blank">
+                                     <img src="libs/img/facebook.png" alt="">
+                                   </a>
+                                 </li>
+                                 <li class="nav-item col-4 d-flex align-items-center justify-content-start">
+                                   <a class="nav-link" href="https://instagram.com" target="_blank">
+                                    <img src="libs/img/instagram.png" alt="">
+                                   </a>
+                                 </li>
+                               </ul>
+                           </div>
+
+                           <div class="footer_content_block col-4 d-flex align-items-center justify-content-end">
+                              <a href="#" class="col-12 d-flex align-items-center justify-content-end">Политика конфиденциальности</a>
+                           </div>
+                    </div>
+
+                    <div class="footer_mobile d-flex align-items-center flex-column gap-3">
+                          <div class="footer_mobile_block">
+                             <span>Rental yacht - customer service</span>
+                          </div>
+
+                          <div class="footer_mobile_block">
+                             <a href="tel:+971585174744">+971 58 517 4744</a>
+                          </div>
+                          
+                          <div class="footer_mobile_block">
+                              <a href="">
+                                  <img src="libs/img/whatsapp.png" alt="">
+
+                                  <span>WhatApp us</span>
+                              </a>
+                          </div>
+                          
+                          <div class="footer_mobile_block"> 
+                             <span>Dubai, United Arab Emirates</span>
+                          </div>
+                    </div>
+             </footer>
+         </div>
+     </div>
+
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/bootstrap/js/popper.min.js"></script>
+</body>
+</html>
